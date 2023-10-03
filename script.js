@@ -158,3 +158,9 @@ buttons.forEach((button) => {
         alert(button.id)
     })
 })
+    if (prompt('Want to play again? (type yes or no)').toLowerCase()=='yes'){
+        game()
+    }else{alert('It was nice playing with you.')}
+}
+
+
